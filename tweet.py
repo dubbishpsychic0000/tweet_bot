@@ -10,11 +10,11 @@ from google import genai
 load_dotenv()
 
 GEMINI_API_KEY    = os.getenv("GEMINI_API_KEY")
-BEARER_TOKEN      = os.getenv("TWITTER_BEARER_TOKEN")
-CONSUMER_KEY      = os.getenv("TWITTER_API_KEY")
-CONSUMER_SECRET   = os.getenv("TWITTER_API_SECRET")
-ACCESS_TOKEN      = os.getenv("TWITTER_ACCESS_TOKEN")
-ACCESS_SECRET     = os.getenv("TWITTER_ACCESS_SECRET")
+BEARER_TOKEN      = os.getenv("TWITTER_BEARER_TOKEN2")
+CONSUMER_KEY      = os.getenv("TWITTER_API_KEY2")
+CONSUMER_SECRET   = os.getenv("TWITTER_API_SECRET2")
+ACCESS_TOKEN      = os.getenv("TWITTER_ACCESS_TOKEN2")
+ACCESS_SECRET     = os.getenv("TWITTER_ACCESS_SECRET2")
 
 missing = [name for name, val in [
     ("GEMINI_API_KEY", GEMINI_API_KEY),
