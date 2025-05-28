@@ -9,7 +9,7 @@ from google import genai
 # Load environment variables
 load_dotenv()
 
-GEMINI_API_KEY    = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY    = os.getenv("GEMINI_API_KEY2")
 BEARER_TOKEN      = os.getenv("TWITTER_BEARER_TOKEN2")
 CONSUMER_KEY      = os.getenv("TWITTER_API_KEY2")
 CONSUMER_SECRET   = os.getenv("TWITTER_API_SECRET2")
